@@ -15,12 +15,19 @@ btn.addEventListener("click",function(){
     inp.value = "";
 });
 
+ul.addEventListener("click",function(event){
+    if(event.target.nodeName=="BUTTON"){
+        let ListItem=event.target.parentElement;
+        ListItem.remove();
+        console.log("delete");
+    }
+});
 
-let delBtns = document.querySelectorAll(".btn");
-for(delbtn of delBtns){
-    delbtn.addEventListener("click",function(){
-    //    console.log("get deleted");
-    let par=this.parentElement;
-    par.remove();
-    })
-}
+// let delBtns = document.querySelectorAll(".btn");
+// for(delbtn of delBtns){
+//     delbtn.addEventListener("click",function(){
+//     //    console.log("get deleted");
+//     let par=this.parentElement;
+//     par.remove();
+//     })
+// }
