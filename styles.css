@@ -1,0 +1,23 @@
+.part{
+    text-align: justify;
+    background-color: grey;
+    ;
+}
+
+.heading{
+    text-shadow:larger;
+    text-align: justify;
+}
+
+.btn-sucess{
+    background-color: green;
+    border-radius: 4px;
+}
+.inputs{
+    width: 30%;
+    border:2px solid red;
+    border-radius: 5px;
+    background-color:white ;
+    color:red;
+    
+}
